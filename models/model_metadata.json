@@ -1,0 +1,23 @@
+{
+  "model_type": "Random Forest",
+  "sign_type": "static",
+  "feature_dimensions": 63,
+  "vocabulary": [
+    "BAD",
+    "I_ME"
+  ],
+  "label_mapping": {
+    "0": "BAD",
+    "1": "I_ME"
+  },
+  "num_classes": 2,
+  "training_date": "2026-09-11T00:19:25.807697",
+  "train_samples": 285,
+  "test_samples": 24,
+  "test_accuracy": 1.0,
+  "test_f1": 1.0,
+  "test_precision": 1.0,
+  "test_recall": 1.0,
+  "dataset_source": "User-collected via webcam (scripts/collect_data.py)",
+  "notes": "Static ISL sign classifier. Dynamic signs require separate temporal model."
+}
